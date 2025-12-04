@@ -4,6 +4,19 @@ Research reference implementation of the Alpenglow consensus protocol.
 
 ![Latency Histogram for Random Leaders](./latency_histogram.png)
 
+## Documentation
+
+- **[Architecture Overview](docs/ARCHITECTURE_OVERVIEW.md)** - Detailed explanation of the protocol architecture and components
+- **[Repository Structure](docs/REPOSITORY_STRUCTURE.md)** - Codebase organization and directory layout
+- **[Getting Started Guide](docs/GETTING_STARTED.md)** - Complete setup instructions and testing guide
+- **[Quick Reference](docs/QUICK_REFERENCE.md)** - Quick command reference and troubleshooting
+- **[Understanding Demo Output](docs/UNDERSTANDING_DEMO_OUTPUT.md)** - Guide to interpreting demo logs
+
+**New to the codebase?** 
+1. Start with [Repository Structure](docs/REPOSITORY_STRUCTURE.md) to understand the codebase organization
+2. Read [Architecture Overview](docs/ARCHITECTURE_OVERVIEW.md) to understand how the protocol works
+3. Follow [Getting Started Guide](docs/GETTING_STARTED.md) to set up and test your environment
+
 ## Getting Started
 
 A local cluster example can be run with the following command:
