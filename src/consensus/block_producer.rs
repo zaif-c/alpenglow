@@ -4,7 +4,7 @@
 //! Block production, leader-side of the consensus protocol.
 
 use std::sync::Arc;
-use std::time::{Duration, Instant};
+use std::time::{Duration, Instant, SystemTime, UNIX_EPOCH};
 
 use color_eyre::Result;
 use either::Either;
@@ -23,6 +23,13 @@ use crate::network::{Network, TransactionNetwork};
 use crate::shredder::{MAX_DATA_PER_SLICE, RegularShredder, Shredder};
 use crate::types::{Slice, SliceHeader, SliceIndex, SlicePayload, Slot};
 use crate::{BlockId, Disseminator, MAX_TRANSACTION_SIZE};
+
+fn now_ms() -> u128 {
+    SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .unwrap()
+        .as_millis()
+}
 
 /// Produces blocks from transactions and dissminates them.
 ///
@@ -182,6 +189,13 @@ where
             &hex::encode(parent_hash.as_hash())[..8],
             *parent_slot,
         );
+        // Benchmarking instrumentation:
+        // This log line is parsed by `bench_rotor.sh` to identify when a block
+        // for a given slot starts production. We include a millisecond
+        // timestamp so we can compute exact latency until the block is
+        // finalized.
+        let ts_ms = now_ms();
+        info!("METRIC_BLOCK_PRODUCED slot={slot} ts_ms={ts_ms}");
 
         // only start the DELTA_BLOCK timer once the ParentReady event is seen
         let mut duration_left = Duration::MAX;
@@ -297,6 +311,12 @@ where
             &hex::encode(parent_hash.as_hash())[..8],
             parent_slot,
         );
+        // Benchmarking instrumentation:
+        // As above, log a machine-readable marker whenever a block is
+        // produced so external tools can correlate this with finalization
+        // events. The millisecond timestamp is used to compute exact latency.
+        let ts_ms = now_ms();
+        info!("METRIC_BLOCK_PRODUCED slot={slot} ts_ms={ts_ms}");
 
         let mut duration_left = self.delta_block;
         for slice_index in SliceIndex::all() {
@@ -425,8 +445,14 @@ where
     };
 
     // TODO: not accounting for this potentially expensive operation in duration_left calculation above.
+    let tx_count = txs.len();
     let txs = wincode::serialize(&txs).expect("serialization should not panic");
     let payload = SlicePayload::new(parent, txs);
+    // Benchmarking instrumentation:
+    // This metric records how many transactions were included in each slice
+    // payload. `bench_rotor.sh` aggregates these values to report average,
+    // minimum, and maximum transactions per slice for a run.
+    info!("METRIC_SLICE_PAYLOAD txs={tx_count}");
     (payload, ret)
 }
 

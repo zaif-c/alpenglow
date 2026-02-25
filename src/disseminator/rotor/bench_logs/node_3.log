@@ -1,0 +1,2448 @@
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO notarized(-fallback) block 2f71dc38 in slot 1
+ INFO notarized(-fallback) block 2f71dc38 in slot 1
+ INFO METRIC_FAST_FINAL slot=1 ts_ms=1772036850090
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=1 ts_ms=1772036850100
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block dc79b2a6 in slot 2
+ INFO notarized(-fallback) block dc79b2a6 in slot 2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_FAST_FINAL slot=2 ts_ms=1772036850505
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=2 ts_ms=1772036850517
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO notarized(-fallback) block 5e5b16ea in slot 3
+ INFO notarized(-fallback) block 5e5b16ea in slot 3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_SLOW_FINAL slot=3 ts_ms=1772036850926
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_FAST_FINAL slot=3 ts_ms=1772036850931
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 010a9ea4 in slot 4
+ INFO notarized(-fallback) block 010a9ea4 in slot 4
+ INFO METRIC_FAST_FINAL slot=4 ts_ms=1772036851333
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=4 ts_ms=1772036851345
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 60e86b24 in slot 5
+ INFO notarized(-fallback) block 60e86b24 in slot 5
+ INFO METRIC_FAST_FINAL slot=5 ts_ms=1772036851731
+ INFO METRIC_SLOW_FINAL slot=5 ts_ms=1772036851738
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO notarized(-fallback) block b7dacbbd in slot 6
+ INFO notarized(-fallback) block b7dacbbd in slot 6
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_FAST_FINAL slot=6 ts_ms=1772036852143
+ INFO METRIC_SLOW_FINAL slot=6 ts_ms=1772036852144
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO notarized(-fallback) block fb0b2d43 in slot 7
+ INFO notarized(-fallback) block fb0b2d43 in slot 7
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_FAST_FINAL slot=7 ts_ms=1772036852545
+ INFO METRIC_SLOW_FINAL slot=7 ts_ms=1772036852552
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 32925d11 in slot 8
+ INFO notarized(-fallback) block 32925d11 in slot 8
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_FAST_FINAL slot=8 ts_ms=1772036852972
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=8 ts_ms=1772036852974
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO notarized(-fallback) block 0e2fc537 in slot 9
+ INFO notarized(-fallback) block 0e2fc537 in slot 9
+ INFO METRIC_FAST_FINAL slot=9 ts_ms=1772036853364
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_SLOW_FINAL slot=9 ts_ms=1772036853373
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO notarized(-fallback) block 9a640ee5 in slot 10
+ INFO notarized(-fallback) block 9a640ee5 in slot 10
+ INFO METRIC_FAST_FINAL slot=10 ts_ms=1772036853770
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_SLOW_FINAL slot=10 ts_ms=1772036853779
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO optimistically producing block in slot 12 with parent 9243a220 in slot 11
+ INFO METRIC_BLOCK_PRODUCED slot=12 ts_ms=1772036854172
+ INFO notarized(-fallback) block 9243a220 in slot 11
+ INFO notarized(-fallback) block 9243a220 in slot 11
+ INFO METRIC_FAST_FINAL slot=11 ts_ms=1772036854175
+ INFO METRIC_SLOW_FINAL slot=11 ts_ms=1772036854182
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO producing block in slot 13 with ready parent 29315dda in slot 12
+ INFO METRIC_BLOCK_PRODUCED slot=13 ts_ms=1772036854577
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO notarized(-fallback) block 29315dda in slot 12
+ INFO notarized(-fallback) block 29315dda in slot 12
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_FAST_FINAL slot=12 ts_ms=1772036854583
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_SLOW_FINAL slot=12 ts_ms=1772036854590
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO producing block in slot 14 with ready parent ee6c462d in slot 13
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_BLOCK_PRODUCED slot=14 ts_ms=1772036854989
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO notarized(-fallback) block ee6c462d in slot 13
+ INFO notarized(-fallback) block ee6c462d in slot 13
+ INFO METRIC_FAST_FINAL slot=13 ts_ms=1772036854994
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_SLOW_FINAL slot=13 ts_ms=1772036855003
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO producing block in slot 15 with ready parent 4e06a281 in slot 14
+ INFO METRIC_BLOCK_PRODUCED slot=15 ts_ms=1772036855394
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO notarized(-fallback) block 4e06a281 in slot 14
+ INFO notarized(-fallback) block 4e06a281 in slot 14
+ INFO METRIC_FAST_FINAL slot=14 ts_ms=1772036855401
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_SLOW_FINAL slot=14 ts_ms=1772036855410
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 6637ab6d in slot 15
+ INFO notarized(-fallback) block 6637ab6d in slot 15
+ INFO METRIC_FAST_FINAL slot=15 ts_ms=1772036855807
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_SLOW_FINAL slot=15 ts_ms=1772036855817
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO notarized(-fallback) block dbea71a1 in slot 16
+ INFO notarized(-fallback) block dbea71a1 in slot 16
+ INFO METRIC_FAST_FINAL slot=16 ts_ms=1772036856229
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=16 ts_ms=1772036856243
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 8183b5f9 in slot 17
+ INFO notarized(-fallback) block 8183b5f9 in slot 17
+ INFO METRIC_FAST_FINAL slot=17 ts_ms=1772036856637
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=17 ts_ms=1772036856648
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 16fd9eb2 in slot 18
+ INFO notarized(-fallback) block 16fd9eb2 in slot 18
+ INFO METRIC_FAST_FINAL slot=18 ts_ms=1772036857051
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_SLOW_FINAL slot=18 ts_ms=1772036857062
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block b928edaf in slot 19
+ INFO notarized(-fallback) block b928edaf in slot 19
+ INFO METRIC_FAST_FINAL slot=19 ts_ms=1772036857457
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_SLOW_FINAL slot=19 ts_ms=1772036857470
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block e9fe13db in slot 20
+ INFO notarized(-fallback) block e9fe13db in slot 20
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_FAST_FINAL slot=20 ts_ms=1772036857882
+ INFO METRIC_SLOW_FINAL slot=20 ts_ms=1772036857887
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block d9bba1b9 in slot 21
+ INFO notarized(-fallback) block d9bba1b9 in slot 21
+ INFO METRIC_FAST_FINAL slot=21 ts_ms=1772036858283
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=21 ts_ms=1772036858295
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 54a18ec8 in slot 22
+ INFO notarized(-fallback) block 54a18ec8 in slot 22
+ INFO METRIC_FAST_FINAL slot=22 ts_ms=1772036858692
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_SLOW_FINAL slot=22 ts_ms=1772036858703
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 6ba81df9 in slot 23
+ INFO notarized(-fallback) block 6ba81df9 in slot 23
+ INFO METRIC_FAST_FINAL slot=23 ts_ms=1772036859100
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_SLOW_FINAL slot=23 ts_ms=1772036859114
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO notarized(-fallback) block ee88ee33 in slot 24
+ INFO notarized(-fallback) block ee88ee33 in slot 24
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_FAST_FINAL slot=24 ts_ms=1772036859513
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=24 ts_ms=1772036859524
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 1fb08f5d in slot 25
+ INFO notarized(-fallback) block 1fb08f5d in slot 25
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_FAST_FINAL slot=25 ts_ms=1772036859935
+ INFO METRIC_SLOW_FINAL slot=25 ts_ms=1772036859936
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 12407804 in slot 26
+ INFO notarized(-fallback) block 12407804 in slot 26
+ INFO METRIC_FAST_FINAL slot=26 ts_ms=1772036860332
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=26 ts_ms=1772036860344
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO optimistically producing block in slot 28 with parent 69f307f5 in slot 27
+ INFO METRIC_BLOCK_PRODUCED slot=28 ts_ms=1772036860730
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 69f307f5 in slot 27
+ INFO notarized(-fallback) block 69f307f5 in slot 27
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_FAST_FINAL slot=27 ts_ms=1772036860740
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_SLOW_FINAL slot=27 ts_ms=1772036860752
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO producing block in slot 29 with ready parent 94745508 in slot 28
+ INFO METRIC_BLOCK_PRODUCED slot=29 ts_ms=1772036861145
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 94745508 in slot 28
+ INFO notarized(-fallback) block 94745508 in slot 28
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_FAST_FINAL slot=28 ts_ms=1772036861157
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_SLOW_FINAL slot=28 ts_ms=1772036861169
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO producing block in slot 30 with ready parent 631ac8ca in slot 29
+ INFO METRIC_BLOCK_PRODUCED slot=30 ts_ms=1772036861553
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 631ac8ca in slot 29
+ INFO notarized(-fallback) block 631ac8ca in slot 29
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_FAST_FINAL slot=29 ts_ms=1772036861566
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=29 ts_ms=1772036861578
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO producing block in slot 31 with ready parent b762a895 in slot 30
+ INFO METRIC_BLOCK_PRODUCED slot=31 ts_ms=1772036861961
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block b762a895 in slot 30
+ INFO notarized(-fallback) block b762a895 in slot 30
+ WARN received repair response for unknown request SliceRoot(LastSliceRoot((Slot(128849018880), DoubleMerkleRoot([0, 0, 0, 0, 183, 98, 168, 149, 219, 35, 103, 29, 168, 211, 220, 37, 125, 189, 142, 120, 224, 23, 45, 214, 213, 6, 171, 69, 188, 234, 135, 164]))), SliceRoot([160, 28, 221, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), DoubleMerkleProof([]))
+ WARN received repair response for unknown request SliceRoot(LastSliceRoot((Slot(128849018880), DoubleMerkleRoot([0, 0, 0, 0, 183, 98, 168, 149, 219, 35, 103, 29, 168, 211, 220, 37, 125, 189, 142, 120, 224, 23, 45, 214, 213, 6, 171, 69, 188, 234, 135, 164]))), SliceRoot([160, 28, 221, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), DoubleMerkleProof([]))
+ WARN received repair response for unknown request SliceRoot(LastSliceRoot((Slot(128849018880), DoubleMerkleRoot([0, 0, 0, 0, 183, 98, 168, 149, 219, 35, 103, 29, 168, 211, 220, 37, 125, 189, 142, 120, 224, 23, 45, 214, 213, 6, 171, 69, 188, 234, 135, 164]))), SliceRoot([160, 28, 221, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), DoubleMerkleProof([]))
+ WARN received repair response for unknown request SliceRoot(LastSliceRoot((Slot(128849018880), DoubleMerkleRoot([0, 0, 0, 0, 183, 98, 168, 149, 219, 35, 103, 29, 168, 211, 220, 37, 125, 189, 142, 120, 224, 23, 45, 214, 213, 6, 171, 69, 188, 234, 135, 164]))), SliceRoot([160, 28, 221, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), DoubleMerkleProof([]))
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_FAST_FINAL slot=30 ts_ms=1772036861981
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=30 ts_ms=1772036861982
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLICE_PAYLOAD txs=0
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY leader_shreds=1
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 58177697 in slot 31
+ INFO notarized(-fallback) block 58177697 in slot 31
+ INFO METRIC_FAST_FINAL slot=31 ts_ms=1772036862375
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=31 ts_ms=1772036862386
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ INFO METRIC_RELAY relay_shreds=3
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ WARN received repair response for unknown request SliceRoot(LastSliceRoot((Slot(128849018880), DoubleMerkleRoot([0, 0, 0, 0, 183, 98, 168, 149, 219, 35, 103, 29, 168, 211, 220, 37, 125, 189, 142, 120, 224, 23, 45, 214, 213, 6, 171, 69, 188, 234, 135, 164]))), SliceRoot([160, 28, 221, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), DoubleMerkleProof([]))
+ WARN received repair response for unknown request SliceRoot(LastSliceRoot((Slot(128849018880), DoubleMerkleRoot([0, 0, 0, 0, 183, 98, 168, 149, 219, 35, 103, 29, 168, 211, 220, 37, 125, 189, 142, 120, 224, 23, 45, 214, 213, 6, 171, 69, 188, 234, 135, 164]))), SliceRoot([160, 28, 221, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), DoubleMerkleProof([]))
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ WARN skipped slot 32
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ WARN skipped slot 33
+ WARN skipped slot 34
+ WARN skipped slot 35
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ WARN received repair response for unknown request SliceRoot(LastSliceRoot((Slot(128849018880), DoubleMerkleRoot([0, 0, 0, 0, 183, 98, 168, 149, 219, 35, 103, 29, 168, 211, 220, 37, 125, 189, 142, 120, 224, 23, 45, 214, 213, 6, 171, 69, 188, 234, 135, 164]))), SliceRoot([160, 28, 221, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), DoubleMerkleProof([]))
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block 63f3dcd1 in slot 36
+ INFO notarized(-fallback) block 63f3dcd1 in slot 36
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=36 ts_ms=1772036863590
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_FAST_FINAL slot=36 ts_ms=1772036863592
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ WARN received repair response for unknown request SliceRoot(LastSliceRoot((Slot(128849018880), DoubleMerkleRoot([0, 0, 0, 0, 183, 98, 168, 149, 219, 35, 103, 29, 168, 211, 220, 37, 125, 189, 142, 120, 224, 23, 45, 214, 213, 6, 171, 69, 188, 234, 135, 164]))), SliceRoot([160, 28, 221, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), DoubleMerkleProof([]))
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO notarized(-fallback) block e312d53a in slot 37
+ INFO notarized(-fallback) block e312d53a in slot 37
+ INFO METRIC_FAST_FINAL slot=37 ts_ms=1772036863986
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_SLOW_FINAL slot=37 ts_ms=1772036863998
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO notarized(-fallback) block ea4043b4 in slot 38
+ INFO notarized(-fallback) block ea4043b4 in slot 38
+ INFO METRIC_FAST_FINAL slot=38 ts_ms=1772036864387
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ INFO METRIC_SLOW_FINAL slot=38 ts_ms=1772036864396
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ INFO METRIC_RELAY relay_shreds=2
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ERROR failed to report to opentelemetry: Operation failed: status: 'The service is currently unavailable', self: "tcp connect error"
+ WARN received repair response for unknown request SliceRoot(LastSliceRoot((Slot(128849018880), DoubleMerkleRoot([0, 0, 0, 0, 183, 98, 168, 149, 219, 35, 103, 29, 168, 211, 220, 37, 125, 189, 142, 120, 224, 23, 45, 214, 213, 6, 171, 69, 188, 234, 135, 164]))), SliceRoot([160, 28, 221, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), DoubleMerkleProof([]))

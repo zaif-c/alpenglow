@@ -99,8 +99,8 @@ where
             let _bytes_recved = self.socket.recv(&mut buf).await?;
             let msg = match wincode::deserialize(&buf) {
                 Ok(r) => r,
-                Err(err) => {
-                    warn!("deserializing failed with {err:?}");
+                Err(_err) => {
+                    // warn!("deserializing failed with {err:?}");
                     continue;
                 }
             };

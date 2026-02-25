@@ -12,7 +12,13 @@ use alpenglow::consensus::{Alpenglow, ConsensusMessage, EpochInfo};
 use alpenglow::crypto::aggsig;
 use alpenglow::crypto::signature::SecretKey;
 use alpenglow::disseminator::Rotor;
-use alpenglow::disseminator::rotor::StakeWeightedSampler;
+// use alpenglow::disseminator::rotor::StakeWeightedSampler;
+use alpenglow::disseminator::rotor::{
+    FaitAccompli1Sampler, FaitAccompli2Sampler, RotorSamplerExt, StakeWeightedSampler,
+};
+use alpenglow::disseminator::rotor::sampling_strategy::{
+    AllSameSampler, DecayingAcceptanceSampler, PartitionSampler, TurbineSampler, UniformSampler,
+};
 use alpenglow::network::UdpNetwork;
 use alpenglow::shredder::Shred;
 use alpenglow::{Transaction, ValidatorInfo, logging};
@@ -69,6 +75,7 @@ async fn main() -> Result<()> {
     let config: ConfigFile = toml::from_str(&config_string).context("Can not parse config")?;
 
     // enable `fastrace` tracing
+    
     let reporter = OpenTelemetryReporter::new(
         SpanExporter::builder()
             .with_tonic()
@@ -109,9 +116,14 @@ async fn main() -> Result<()> {
     Ok(())
 }
 
+// Choose the sampler to use here:
+// (AllSameSampler, UniformSampler, StakeWeightedSampler, DecayingAcceptanceSampler (currently incompatible with Rotor), TurbineSampler, PartitionSampler, FaitAccompli1Sampler<fallback sampler>, FaitAccompli2Sampler)
+
+type RotorSampler = StakeWeightedSampler;
+
 type Node = Alpenglow<
     TrivialAll2All<UdpNetwork<ConsensusMessage, ConsensusMessage>>,
-    Rotor<UdpNetwork<Shred, Shred>, StakeWeightedSampler>,
+    Rotor<UdpNetwork<Shred, Shred>, RotorSampler>,
     UdpNetwork<Transaction, Transaction>,
 >;
 
@@ -122,7 +134,7 @@ fn create_node(config: ConfigFile) -> Node {
     let network = UdpNetwork::new(start_port);
     let all2all = TrivialAll2All::new(config.gossip, network);
     let network = UdpNetwork::new(start_port + 1);
-    let disseminator = Rotor::new(network, epoch_info.clone());
+    let disseminator = RotorSampler::build_rotor(network, epoch_info.clone());
     let repair_network = UdpNetwork::new(start_port + 2);
     let repair_request_network = UdpNetwork::new(start_port + 3);
     let txs_receiver = UdpNetwork::new(start_port + 4);

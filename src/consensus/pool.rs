@@ -13,6 +13,7 @@ mod slot_state;
 use std::collections::BTreeMap;
 use std::ops::RangeBounds;
 use std::sync::Arc;
+use std::time::{SystemTime, UNIX_EPOCH};
 
 use async_trait::async_trait;
 use either::Either;
@@ -32,6 +33,13 @@ use crate::consensus::pool::finality_tracker::FinalizationEvent;
 use crate::crypto::merkle::{BlockHash, MerkleRoot};
 use crate::types::SLOTS_PER_EPOCH;
 use crate::{BlockId, Slot, ValidatorId};
+
+fn now_ms() -> u128 {
+    SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .unwrap()
+        .as_millis()
+}
 
 /// Errors the Pool may return when adding a vote.
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Error)]
@@ -188,14 +196,24 @@ impl PoolImpl {
                 self.send_parent_ready_events(new_parents_ready).await;
             }
             Cert::FastFinal(ff_cert) => {
-                info!("fast finalized slot {slot}");
+                // Benchmarking instrumentation:
+                // Machine-readable marker used by `bench_rotor.sh` to detect
+                // when a slot has been fast-finalized. We include a millisecond
+                // timestamp so we can compute exact latency from block
+                // production to fast finality.
+                let ts_ms = now_ms();
+                info!("METRIC_FAST_FINAL slot={slot} ts_ms={ts_ms}");
                 let hash = ff_cert.block_hash().clone();
                 let finalization_event = self.finality_tracker.mark_fast_finalized(slot, hash);
                 self.handle_finalization(finalization_event).await;
                 self.prune();
             }
             Cert::Final(_) => {
-                info!("slow finalized slot {slot}");
+                // Benchmarking instrumentation:
+                // Marker for slow finalization; we also include a millisecond
+                // timestamp for potential future latency analysis.
+                let ts_ms = now_ms();
+                info!("METRIC_SLOW_FINAL slot={slot} ts_ms={ts_ms}");
                 let finalization_event = self.finality_tracker.mark_finalized(slot);
                 self.handle_finalization(finalization_event).await;
                 self.prune();

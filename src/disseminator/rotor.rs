@@ -18,9 +18,14 @@ use std::sync::Arc;
 
 use async_trait::async_trait;
 use rand::prelude::*;
+use log::info;
 
-use self::sampling_strategy::PartitionSampler;
-pub use self::sampling_strategy::{FaitAccompli1Sampler, SamplingStrategy, StakeWeightedSampler};
+use self::sampling_strategy::{
+    AllSameSampler, DecayingAcceptanceSampler, PartitionSampler, TurbineSampler, UniformSampler,
+};
+pub use self::sampling_strategy::{
+    FaitAccompli1Sampler, FaitAccompli2Sampler, SamplingStrategy, StakeWeightedSampler,
+};
 use super::Disseminator;
 use crate::consensus::EpochInfo;
 use crate::network::{Network, ShredNetwork};
@@ -67,6 +72,58 @@ impl<N: Network> Rotor<N, FaitAccompli1Sampler<PartitionSampler>> {
     }
 }
 
+impl<N: Network> Rotor<N, UniformSampler> {
+    /// Creates a new Rotor instance with uniform sampling strategy.
+    pub fn new_uniform(network: N, epoch_info: Arc<EpochInfo>) -> Self {
+        let validators = epoch_info.validators.clone();
+        let sampler = UniformSampler::new(validators);
+        Self {
+            network,
+            sampler,
+            epoch_info,
+        }
+    }
+}
+
+impl<N: Network> Rotor<N, DecayingAcceptanceSampler> {
+    /// Creates a new Rotor instance with the decaying acceptance sampling strategy.
+    pub fn new_decaying(network: N, epoch_info: Arc<EpochInfo>, max_samples: f64) -> Self {
+        let validators = epoch_info.validators.clone();
+        let sampler = DecayingAcceptanceSampler::new(validators, max_samples);
+        Self {
+            network,
+            sampler,
+            epoch_info,
+        }
+    }
+}
+
+impl<N: Network> Rotor<N, TurbineSampler> {
+    /// Creates a new Rotor instance with the Turbine-inspired sampling strategy.
+    pub fn new_turbine(network: N, epoch_info: Arc<EpochInfo>) -> Self {
+        let validators = epoch_info.validators.clone();
+        let sampler = TurbineSampler::new(validators);
+        Self {
+            network,
+            sampler,
+            epoch_info,
+        }
+    }
+}
+
+impl<N: Network> Rotor<N, FaitAccompli2Sampler> {
+    /// Creates a new Rotor instance with the FA2 sampling strategy.
+    pub fn new_fa2(network: N, epoch_info: Arc<EpochInfo>) -> Self {
+        let validators = epoch_info.validators.clone();
+        let sampler = FaitAccompli2Sampler::new(validators, TOTAL_SHREDS as u64);
+        Self {
+            network,
+            sampler,
+            epoch_info,
+        }
+    }
+}
+
 impl<N, S: SamplingStrategy> Rotor<N, S>
 where
     N: ShredNetwork,
@@ -81,6 +138,9 @@ where
     async fn send_as_leader(&self, shred: &Shred) -> std::io::Result<()> {
         let relay = self.sample_relay(shred.payload().header.slot, shred.payload().index_in_slot());
         let v = self.epoch_info.validator(relay);
+        // Benchmarking instrumentation:
+        // Count leader-to-relay transmissions for Rotor throughput metrics.
+        info!("METRIC_RELAY leader_shreds=1");
         self.network.send(shred, v.disseminator_address).await
     }
 
@@ -96,6 +156,16 @@ where
         }
 
         // otherwise, broadcast
+        // Benchmarking instrumentation:
+        // Count how many peers we relay to for this shred (fanout).
+        let fanout = self
+            .epoch_info
+            .validators
+            .iter()
+            .filter(|v| v.id != leader && v.id != relay)
+            .count();
+        info!("METRIC_RELAY relay_shreds={fanout}");
+
         let to = self
             .epoch_info
             .validators
@@ -116,6 +186,95 @@ where
         .concat();
         let mut rng = StdRng::from_seed(seed.try_into().unwrap());
         self.sampler.sample(&mut rng)
+    }
+}
+
+/// Helper trait to construct a [`Rotor`] for a given sampling strategy.
+///
+/// This allows higher-level code (like the `node` binary) to only choose the
+/// sampler type via a type alias, and rely on the appropriate [`Rotor`]
+/// constructor being called automatically.
+pub trait RotorSamplerExt: SamplingStrategy + Sized {
+    fn build_rotor<N: Network>(network: N, epoch_info: Arc<EpochInfo>) -> Rotor<N, Self>;
+}
+
+impl RotorSamplerExt for StakeWeightedSampler {
+    fn build_rotor<N: Network>(network: N, epoch_info: Arc<EpochInfo>) -> Rotor<N, Self> {
+        Rotor::new(network, epoch_info)
+    }
+}
+
+impl RotorSamplerExt for FaitAccompli1Sampler<PartitionSampler> {
+    fn build_rotor<N: Network>(network: N, epoch_info: Arc<EpochInfo>) -> Rotor<N, Self> {
+        Rotor::new_fa1(network, epoch_info)
+    }
+}
+
+impl RotorSamplerExt for UniformSampler {
+    fn build_rotor<N: Network>(network: N, epoch_info: Arc<EpochInfo>) -> Rotor<N, Self> {
+        Rotor::new_uniform(network, epoch_info)
+    }
+}
+
+// This sampler is not currently compatible with Rotor, but is included for completeness.
+impl RotorSamplerExt for DecayingAcceptanceSampler {
+    fn build_rotor<N: Network>(network: N, epoch_info: Arc<EpochInfo>) -> Rotor<N, Self> {
+        // Use a reasonable default for max_samples; adjust here if needed.
+        Rotor::new_decaying(network, epoch_info, 3.0)
+    }
+}
+
+impl RotorSamplerExt for TurbineSampler {
+    fn build_rotor<N: Network>(network: N, epoch_info: Arc<EpochInfo>) -> Rotor<N, Self> {
+        Rotor::new_turbine(network, epoch_info)
+    }
+}
+
+impl RotorSamplerExt for FaitAccompli2Sampler {
+    fn build_rotor<N: Network>(network: N, epoch_info: Arc<EpochInfo>) -> Rotor<N, Self> {
+        Rotor::new_fa2(network, epoch_info)
+    }
+}
+
+impl RotorSamplerExt for AllSameSampler {
+    fn build_rotor<N: Network>(network: N, epoch_info: Arc<EpochInfo>) -> Rotor<N, Self> {
+        let first = epoch_info
+            .validators
+            .first()
+            .cloned()
+            .expect("at least one validator required for AllSameSampler");
+        let sampler = AllSameSampler(first);
+        Rotor {
+            network,
+            sampler,
+            epoch_info,
+        }
+    }
+}
+
+impl RotorSamplerExt for PartitionSampler {
+    fn build_rotor<N: Network>(network: N, epoch_info: Arc<EpochInfo>) -> Rotor<N, Self> {
+        let validators = epoch_info.validators.clone();
+        let num_bins = validators.len().max(1);
+        let sampler = PartitionSampler::new(validators, num_bins);
+        Rotor {
+            network,
+            sampler,
+            epoch_info,
+        }
+    }
+}
+
+impl RotorSamplerExt for FaitAccompli1Sampler<StakeWeightedSampler> {
+    fn build_rotor<N: Network>(network: N, epoch_info: Arc<EpochInfo>) -> Rotor<N, Self> {
+        let validators = epoch_info.validators.clone();
+        let sampler =
+            FaitAccompli1Sampler::new_with_stake_weighted_fallback(validators, TOTAL_SHREDS as u64);
+        Rotor {
+            network,
+            sampler,
+            epoch_info,
+        }
     }
 }
 
