@@ -1,22 +1,22 @@
-Alpenglow Rotor benchmark summary
+Alpenglow Rotor benchmark summary (FaitAccompli2Sampler)
 
 1) Offered transaction throughput (workload generator → node_0 tx port)
-   average send rate: 200.35 tx/s
+   average send rate: 200.05 tx/s
    average data rate: 0.80 Mb/s
 
 2) Block production rate per node (leader slots only)
-   node_0: 8 blocks (~0.80 blocks/sec)
-   node_1: 12 blocks (~1.20 blocks/sec)
-   node_2: 8 blocks (~0.80 blocks/sec)
-   node_3: 8 blocks (~0.80 blocks/sec)
-   AVERAGE BLOCK PRODUCTION: 9 blocks per node (~0.90 blocks/sec per node)
+   node_0: 8 blocks (~0.13 blocks/sec)
+   node_1: 44 blocks (~0.73 blocks/sec)
+   node_2: 44 blocks (~0.73 blocks/sec)
+   node_3: 44 blocks (~0.73 blocks/sec)
+   AVERAGE BLOCK PRODUCTION: 35 blocks per node (~0.58 blocks/sec per node)
 
 3) End-to-end finalization latency (block production → fast finalization)
-   node_0: average fast-finalization latency: 422.29 ms
-   node_1: average fast-finalization latency: 421.55 ms
-   node_2: average fast-finalization latency: 420.25 ms
-   node_3: average fast-finalization latency: 417.88 ms
-   AVERAGE FAST-FINALIZATION LATENCY: 420.49 ms
+   node_0: average fast-finalization latency: 420.57 ms
+   node_1: average fast-finalization latency: 417.84 ms
+   node_2: average fast-finalization latency: 418.45 ms
+   node_3: average fast-finalization latency: 419.39 ms
+   AVERAGE FAST-FINALIZATION LATENCY: 419.06 ms
 
 4) Slice payload statistics (transactions per slice, node_0)
    slices built: 15
@@ -26,7 +26,7 @@ Alpenglow Rotor benchmark summary
 
 5) Rotor relay throughput (shreds relayed per second, per node)
    NODE     LEADER_TX            RELAY_TX             TOTAL_TX             SHREDS/SEC    
-   node_0   896                  2330                 3226                 322.60        
-   node_1   1472                 2566                 4038                 403.80        
-   node_2   1024                 2508                 3532                 353.20        
-   node_3   1024                 2495                 3519                 351.90        
+   node_0   896                  9223                 10119                168.65        
+   node_1   5632                 10192                15824                263.73        
+   node_2   5632                 10130                15762                262.70        
+   node_3   5632                 10461                16093                268.22        

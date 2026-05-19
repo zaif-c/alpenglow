@@ -1,0 +1,2 @@
+# Optional: visualization for bench_rotor (JSON export uses stdlib only).
+matplotlib>=3.7

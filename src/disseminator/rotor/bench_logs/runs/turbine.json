@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "strategy": "TurbineSampler",
+    "duration_secs": 60.0,
+    "target_tps": 200.0,
+    "tx_size_bytes": 512,
+    "results_txt": "/Users/zaifc/Programming/Solana Alpenglow/alpenglow/src/disseminator/rotor/bench_logs/results.txt",
+    "generated_at": "2026-05-08T21:32:32.399688+00:00"
+  },
+  "title_strategy": "TurbineSampler",
+  "offered": {
+    "avg_tx_per_s": 200.04,
+    "avg_mb_per_s": 0.8
+  },
+  "block_production": {
+    "per_node": [
+      {
+        "node": 0,
+        "blocks": 8,
+        "blocks_per_sec": 0.13
+      },
+      {
+        "node": 1,
+        "blocks": 44,
+        "blocks_per_sec": 0.73
+      },
+      {
+        "node": 2,
+        "blocks": 44,
+        "blocks_per_sec": 0.73
+      },
+      {
+        "node": 3,
+        "blocks": 44,
+        "blocks_per_sec": 0.73
+      }
+    ],
+    "average_blocks_per_node": 35,
+    "average_blocks_per_sec_per_node": 0.58
+  },
+  "latency": {
+    "per_node": [
+      {
+        "node": 0,
+        "avg_fast_final_ms": 417.0
+      },
+      {
+        "node": 1,
+        "avg_fast_final_ms": 418.02
+      },
+      {
+        "node": 2,
+        "avg_fast_final_ms": 418.34
+      },
+      {
+        "node": 3,
+        "avg_fast_final_ms": 417.36
+      }
+    ],
+    "average_fast_final_ms": 417.68
+  },
+  "slice_payload": {
+    "slices_built": 15,
+    "min_transactions": 0,
+    "max_transactions": 62,
+    "avg_transactions_per_slice": 4.13
+  },
+  "relay": {
+    "per_node": [
+      {
+        "node": 0,
+        "leader_tx": 896,
+        "relay_tx": 5843,
+        "total_tx": 6739,
+        "shreds_per_sec": 112.32
+      },
+      {
+        "node": 1,
+        "leader_tx": 5632,
+        "relay_tx": 3396,
+        "total_tx": 9028,
+        "shreds_per_sec": 150.47
+      },
+      {
+        "node": 2,
+        "leader_tx": 5632,
+        "relay_tx": 17027,
+        "total_tx": 22659,
+        "shreds_per_sec": 377.65
+      },
+      {
+        "node": 3,
+        "leader_tx": 5632,
+        "relay_tx": 14174,
+        "total_tx": 19806,
+        "shreds_per_sec": 330.1
+      }
+    ]
+  }
+}

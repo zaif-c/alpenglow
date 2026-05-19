@@ -12,19 +12,37 @@ use alpenglow::consensus::{Alpenglow, ConsensusMessage, EpochInfo};
 use alpenglow::crypto::aggsig;
 use alpenglow::crypto::signature::SecretKey;
 use alpenglow::disseminator::Rotor;
-// use alpenglow::disseminator::rotor::StakeWeightedSampler;
-use alpenglow::disseminator::rotor::{
-    FaitAccompli1Sampler, FaitAccompli2Sampler, RotorSamplerExt, StakeWeightedSampler,
-};
-use alpenglow::disseminator::rotor::sampling_strategy::{
-    AllSameSampler, DecayingAcceptanceSampler, PartitionSampler, TurbineSampler, UniformSampler,
-};
+use alpenglow::disseminator::rotor::RotorSamplerExt;
+
+#[cfg(any(feature = "sampler_stake_weighted", feature = "sampler_fa1_stake_weighted"))]
+use alpenglow::disseminator::rotor::StakeWeightedSampler;
+
+#[cfg(any(feature = "sampler_fa1_partition", feature = "sampler_fa1_stake_weighted"))]
+use alpenglow::disseminator::rotor::FaitAccompli1Sampler;
+
+#[cfg(feature = "sampler_fa2")]
+use alpenglow::disseminator::rotor::FaitAccompli2Sampler;
+
+#[cfg(feature = "sampler_uniform")]
+use alpenglow::disseminator::rotor::sampling_strategy::UniformSampler;
+
+#[cfg(feature = "sampler_decaying")]
+use alpenglow::disseminator::rotor::sampling_strategy::DecayingAcceptanceSampler;
+
+#[cfg(feature = "sampler_turbine")]
+use alpenglow::disseminator::rotor::sampling_strategy::TurbineSampler;
+
+#[cfg(any(feature = "sampler_partition", feature = "sampler_fa1_partition"))]
+use alpenglow::disseminator::rotor::sampling_strategy::PartitionSampler;
+
+#[cfg(feature = "sampler_all_same")]
+use alpenglow::disseminator::rotor::sampling_strategy::AllSameSampler;
 use alpenglow::network::UdpNetwork;
 use alpenglow::shredder::Shred;
 use alpenglow::{Transaction, ValidatorInfo, logging};
 use clap::Parser;
 use color_eyre::Result;
-use color_eyre::eyre::Context;
+use color_eyre::eyre::{Context, ContextCompat};
 use fastrace::collector::Config;
 use fastrace::prelude::*;
 use fastrace_opentelemetry::OpenTelemetryReporter;
@@ -116,10 +134,58 @@ async fn main() -> Result<()> {
     Ok(())
 }
 
-// Choose the sampler to use here:
-// (AllSameSampler, UniformSampler, StakeWeightedSampler, DecayingAcceptanceSampler (currently incompatible with Rotor), TurbineSampler, PartitionSampler, FaitAccompli1Sampler<fallback sampler>, FaitAccompli2Sampler)
+// Rotor sampler type (`RotorSampler`) is fixed at compile time: `Rotor<UdpNetwork<…>, RotorSampler>`
+// cannot switch implementations at runtime without a larger refactor (enum / dyn trait, etc.).
+//
+// Selection is done via Cargo features in Cargo.toml (`sampler_uniform`, `sampler_stake_weighted`, …).
+// Exactly one must be enabled or you get conflicting `type RotorSampler` definitions:
+//   cargo build --release --bin node --no-default-features --features sampler_uniform
+// Default when no flags are passed: `sampler_stake_weighted` (see `[features].default` in Cargo.toml).
+//
+// Benchmark automation sets `BENCH_NODE_FEATURES` and bench_rotor.sh passes the matching cargo flags;
+// see bench_rotor_strategies.sh to sweep several strategies in sequence.
 
+#[cfg(feature = "sampler_uniform")]
+type RotorSampler = UniformSampler;
+
+#[cfg(feature = "sampler_stake_weighted")]
 type RotorSampler = StakeWeightedSampler;
+
+#[cfg(feature = "sampler_decaying")]
+type RotorSampler = DecayingAcceptanceSampler;
+
+#[cfg(feature = "sampler_turbine")]
+type RotorSampler = TurbineSampler;
+
+#[cfg(feature = "sampler_partition")]
+type RotorSampler = PartitionSampler;
+
+#[cfg(feature = "sampler_fa1_partition")]
+type RotorSampler = FaitAccompli1Sampler<PartitionSampler>;
+
+#[cfg(feature = "sampler_fa1_stake_weighted")]
+type RotorSampler = FaitAccompli1Sampler<StakeWeightedSampler>;
+
+#[cfg(feature = "sampler_fa2")]
+type RotorSampler = FaitAccompli2Sampler;
+
+#[cfg(feature = "sampler_all_same")]
+type RotorSampler = AllSameSampler;
+
+#[cfg(not(any(
+    feature = "sampler_uniform",
+    feature = "sampler_stake_weighted",
+    feature = "sampler_decaying",
+    feature = "sampler_turbine",
+    feature = "sampler_partition",
+    feature = "sampler_fa1_partition",
+    feature = "sampler_fa1_stake_weighted",
+    feature = "sampler_fa2",
+    feature = "sampler_all_same",
+)))]
+compile_error!(
+    "Enable exactly one `sampler_*` Cargo feature when building the `node` binary (see Cargo.toml)."
+);
 
 type Node = Alpenglow<
     TrivialAll2All<UdpNetwork<ConsensusMessage, ConsensusMessage>>,
@@ -150,6 +216,14 @@ fn create_node(config: ConfigFile) -> Node {
     )
 }
 
+/// Parse first token of an `ip_list` line into a socket address.
+/// Requires a full `ip:port` (or `hostname:port`) entry.
+fn socket_list_endpoint(token: &str) -> color_eyre::Result<SocketAddr> {
+    token
+        .parse()
+        .context("expected `<ip>:<port>` (e.g. 127.0.0.1:3000)")
+}
+
 async fn create_node_configs(
     socket_list_filename: String,
     config_base_filename: String,
@@ -162,26 +236,39 @@ async fn create_node_configs(
     let mut validators = Vec::new();
     let mut socket_list =
         tokio::io::BufReader::new(tokio::fs::File::open(socket_list_filename).await?).lines();
-    for id in 0.. {
+    let mut id = 0u64;
+    loop {
         let Some(line) = socket_list.next_line().await? else {
             break;
         };
-        let sockaddr = line
-            .parse::<SocketAddr>()
-            .context("Can not parse socket list")?;
+        let line_trim = line.trim();
+        if line_trim.is_empty() || line_trim.starts_with('#') {
+            continue;
+        }
+        let mut parts = line.split_whitespace();
+        let socket = parts.next().context("Can not parse socket list: missing address")?;
+        let sockaddr = socket_list_endpoint(socket)?;
+        // Optional second field in ip_list: stake (u64). Omit for default stake == 1.
+        let stake = if let Some(stake_str) = parts.next() {
+            stake_str.parse::<u64>().context("Can not parse stake in socket list")?
+        } else {
+            1
+        };
         sks.push(SecretKey::new(&mut rng));
         ports.push(sockaddr.port());
         voting_sks.push(aggsig::SecretKey::new(&mut rng));
+        let idx = sks.len() - 1;
         validators.push(ValidatorInfo {
             id,
-            stake: 1,
-            pubkey: sks[id as usize].to_pk(),
-            voting_pubkey: voting_sks[id as usize].to_pk(),
+            stake,
+            pubkey: sks[idx].to_pk(),
+            voting_pubkey: voting_sks[idx].to_pk(),
             all2all_address: sockaddr,
             disseminator_address: SocketAddr::new(sockaddr.ip(), sockaddr.port() + 1),
             repair_request_address: SocketAddr::new(sockaddr.ip(), sockaddr.port() + 2),
             repair_response_address: SocketAddr::new(sockaddr.ip(), sockaddr.port() + 3),
         });
+        id += 1;
     }
 
     // write config files

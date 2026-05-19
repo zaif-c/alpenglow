@@ -1,34 +1,115 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Simple local benchmark harness for Rotor sampling strategies.
-# Runs a multi-node cluster, sends transactions, and records basic metrics.
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "${ROOT}"
+
+# bench_rotor.sh — single benchmark run (local multi-node cluster + workload + results.txt)
+#
+# WHAT THIS SCRIPT DOES (one invocation):
+#   1. Optionally regenerates ag_node_*.toml from ip_list via `cargo run … --generate-config-files`.
+#   2. Builds release `node` + `workload_generator` (honoring BENCH_NODE_FEATURES; see below).
+#   3. Starts NUM_NODES node processes, runs workload_generator against node 0 for DURATION seconds,
+#      kills processes, then writes metrics to LOG_DIR/results.txt.
+#
+# ROTOR SAMPLER SELECTION (compile-time):
+#   `Rotor<N, S>` fixes S at build time. The `node` binary picks S via Cargo features named
+#   `sampler_*` (see Cargo.toml and src/bin/node.rs). There is no runtime flag on the binary.
+#
+#   • Normal / default: omit BENCH_NODE_FEATURES → Cargo default feature `sampler_stake_weighted`.
+#   • Another sampler without editing Rust source:
+#       export BENCH_NODE_FEATURES=sampler_uniform   # or sampler_turbine, sampler_fa2, …
+#       ./bench_rotor.sh 60 200 512
+#     bench_rotor passes `--no-default-features --features "$BENCH_NODE_FEATURES"` to cargo so exactly
+#     one sampler is active. Do NOT add `--features sampler_X` without `--no-default-features`
+#     or two features may be enabled and the build will fail (duplicate type alias).
+#
+# STRATEGY LABEL IN results.txt (4th positional argument):
+#   ./bench_rotor.sh 60 200 512 "MyLabel"
+#   If omitted: inferred from BENCH_NODE_FEATURES (human-readable name), else "StakeWeightedSampler".
+#
+# MULTI-STRATEGY SWEEPS:
+#   ./bench_rotor_strategies.sh uniform turbine stake_weighted
+#   That wrapper loops: set BENCH_NODE_FEATURES → full bench_rotor.sh → JSON/plots per strategy.
+#   Each iteration rebuilds `node` and restarts the whole cluster (see that script for tradeoffs).
+#
+# ASSUMPTIONS:
+#   - Run from repo root; ip_list present for config generation.
+#   - ip_list (one validator per non-empty non-comment line):
+#       Default stake is always 1 — second column exists only when you want custom stakes.
+#       Examples:
+#         127.0.0.1:3010
+#         127.0.0.1:3005 500  # custom stake only when needed
 #
 # Usage:
-#   ./bench_rotor.sh [duration_secs] [tps] [tx_size_bytes]
-# Example:
+#   ./bench_rotor.sh [duration_secs] [tps] [tx_size_bytes] [strategy_label]
+# Examples:
 #   ./bench_rotor.sh 60 200 512
+#   BENCH_NODE_FEATURES=sampler_partition ./bench_rotor.sh 60 200 512
 #
-# Assumptions:
-# - You have set up ip_list file with the addresses of the nodes to be used in the benchmark
-# - The desired RotorSampler is set in src/bin/node.rs and the code is built in --release.
+# Visualization (after the run):
+#   Level 1 — parse results.txt (matplotlib: scripts/requirements-bench-viz.txt):
+#     python3 scripts/plot_bench_run.py src/disseminator/rotor/bench_logs/results.txt \
+#       --duration 60 --target-tps 200 --tx-size 512
+#   Level 2 — archive JSON per strategy (--json-out), then:
+#     python3 scripts/plot_strategy_comparison.py --glob 'src/disseminator/rotor/bench_logs/runs/*.json' \
+#       --out src/disseminator/rotor/bench_logs/strategy_comparison.png
 
 DURATION="${1:-60}"
 TPS="${2:-200}"
 TX_SIZE="${3:-512}"
+STRATEGY_LABEL="${4:-}"
 NUM_NODES=4
 LOG_DIR="src/disseminator/rotor/bench_logs"
 echo Logs will be written to ${LOG_DIR}/
 mkdir -p "${LOG_DIR}"
 
-echo "Benchmarking Rotor for ${DURATION}s at ~${TPS} TPS, tx size ${TX_SIZE} bytes"
+# Maps BENCH_NODE_FEATURES value → title string for results.txt when CLI strategy_label is omitted.
+sampler_feature_to_label() {
+  case "$1" in
+    sampler_uniform) echo "UniformSampler" ;;
+    sampler_stake_weighted) echo "StakeWeightedSampler" ;;
+    sampler_decaying) echo "DecayingAcceptanceSampler" ;;
+    sampler_turbine) echo "TurbineSampler" ;;
+    sampler_partition) echo "PartitionSampler" ;;
+    sampler_fa1_partition) echo "FaitAccompli1Sampler_PartitionSampler" ;;
+    sampler_fa1_stake_weighted) echo "FaitAccompli1Sampler_StakeWeightedSampler" ;;
+    sampler_fa2) echo "FaitAccompli2Sampler" ;;
+    sampler_all_same) echo "AllSameSampler" ;;
+    *) echo "$1" ;;
+  esac
+}
+
+# When set, cargo must compile `node` with exactly one sampler_* feature (--no-default-features).
+NODE_FEATURE_ARGS=()
+if [[ -n "${BENCH_NODE_FEATURES:-}" ]]; then
+  NODE_FEATURE_ARGS=(--no-default-features --features "${BENCH_NODE_FEATURES}")
+fi
+
+if [[ -z "${STRATEGY_LABEL}" ]]; then
+  if [[ -n "${BENCH_NODE_FEATURES:-}" ]]; then
+    STRATEGY_LABEL="$(sampler_feature_to_label "${BENCH_NODE_FEATURES}")"
+  else
+    STRATEGY_LABEL="StakeWeightedSampler"
+  fi
+fi
+
+echo "Benchmarking Rotor for ${DURATION}s at ~${TPS} TPS, tx size ${TX_SIZE} bytes, strategy=${STRATEGY_LABEL}"
 echo "Logs will be written to ${LOG_DIR}/"
 
 echo "Generating node config files from ip_list..."
-cargo run --release --bin node -- --generate-config-files ip_list --config-name ag_node >/dev/null
+if [[ ${#NODE_FEATURE_ARGS[@]} -eq 0 ]]; then
+  cargo run --release --bin node -- --generate-config-files ip_list --config-name ag_node >/dev/null
+else
+  cargo run --release "${NODE_FEATURE_ARGS[@]}" --bin node -- --generate-config-files ip_list --config-name ag_node >/dev/null
+fi
 
 echo "Building binaries..."
-cargo build --release --bin node --bin workload_generator >/dev/null
+if [[ ${#NODE_FEATURE_ARGS[@]} -eq 0 ]]; then
+  cargo build --release --bin node --bin workload_generator >/dev/null
+else
+  cargo build --release "${NODE_FEATURE_ARGS[@]}" --bin node --bin workload_generator >/dev/null
+fi
 
 node_pids=()
 
@@ -80,7 +161,7 @@ echo "Computing benchmark metrics..."
 RESULTS="${LOG_DIR}/results.txt"
 rm -f "${RESULTS}"
 
-echo "Alpenglow Rotor benchmark summary" | tee -a "${RESULTS}"
+echo "Alpenglow Rotor benchmark summary (${STRATEGY_LABEL})" | tee -a "${RESULTS}"
 echo "" | tee -a "${RESULTS}"
 
 # ---------------------------------------------------------------------------
@@ -309,4 +390,5 @@ echo "Benchmark complete. See:"
 echo "  - ${WG_LOG}          for detailed offered load (per-second TPS / data rate)"
 echo "  - ${LOG_DIR}/node_*.log for raw per-node logs"
 echo "  - ${RESULTS}         for a human-readable summary of this run"
+echo "  Level-1 plots: python3 scripts/plot_bench_run.py \"${RESULTS}\" --duration ${DURATION} --target-tps ${TPS} --tx-size ${TX_SIZE} --strategy \"${STRATEGY_LABEL}\""
 
